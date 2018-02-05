@@ -1,0 +1,13 @@
+How to unschedule node ?
+      --> kubectl cordon <IP Address of the Node> 
+                or
+      --> kubectl cordon $NodeName
+      
+How to schedule your nodes ?
+
+      --> kubectl uncordon <IP Address>
+                  or
+      --> kubectl uncordon $NodeName
+      
+Want to learn are know the commands of kubectl: (A complete commands of kubernetes)
+                  https://kubernetes.io/docs/reference/kubectl/cheatsheet/ 
